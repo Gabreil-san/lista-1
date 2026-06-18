@@ -1,13 +1,9 @@
-﻿Console.Write("Informe a quantidade de tarefas concluídas: ");
-int tarefas = int.Parse(Console.ReadLine());
+using System;
 
-if (tarefas >= 50)
+public class program
 {
-    Console.WriteLine("Meta atingida.");
-    Console.WriteLine($"Tarefas concluídas: {tarefas}");
-}
-else
-{
-    Console.WriteLine("Meta não atingida.");
-    Console.WriteLine($"Faltaram {50 - tarefas} tarefas.");
+    public static void Main(string[] args)
+    {
+        Menu.ExibirMenuPrincipal();
+    }
 }
